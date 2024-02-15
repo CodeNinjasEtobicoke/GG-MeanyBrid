@@ -8,21 +8,27 @@ public class PlayerControls : MonoBehaviour {
 public GameController gameController;
 [Header("default Velocity")]
 public float velocity = 5;
-//Phycics for the bird
-private Rigidbody rb;
+    //Phycics for the bird
+    private Rigidbody2D rb;
 //Height for bird
 private float objectHeight;
 
     // Start is called before the first frame update
     void Start()
-    {   
+    {
+
         //Game controller component
-        //gameController
+        gameController = GetComponent<GameController>();
+        //speed
+        Time.timeScale = 1;
+        rb = GetComponent<Rigidbody2D>();
+        //objectHeight 
+        objectHeight = transform.GetComponent<SpriteRenderer>().bounds.size.y / 2;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+    
     }
 }
