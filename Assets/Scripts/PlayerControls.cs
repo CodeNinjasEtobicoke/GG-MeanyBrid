@@ -29,6 +29,10 @@ private float objectHeight;
     // Update is called once per frame
     void Update()
     {
-    
+        //if the left mouse button is clicked
+        if (Input.GetMouseButtonDown(0))
+        {
+            rb.velocity = Vector2.up * velocity;
+        }
     }
 }
