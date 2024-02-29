@@ -22,6 +22,10 @@ public class Spawner : MonoBehaviour
         transform.position = new Vector3(5, Random.Range(-height, height), 0);
     }
 
+    void InstantiateObjects()
+    {
+        Instantiate(spikes, transform.position, transform.rotation);
+    }
 
 }
 
