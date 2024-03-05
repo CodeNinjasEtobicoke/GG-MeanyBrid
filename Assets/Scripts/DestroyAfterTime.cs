@@ -7,6 +7,7 @@ public class DestroyAfterTime : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Invoke("DestroyObject", timeToDestruction);
 
     }
 
@@ -14,6 +15,13 @@ public class DestroyAfterTime : MonoBehaviour
     void Update()
     {
 
+    }
+    [Header("Default Destruction Time")]
+    public float timeToDestruction;
+
+    void DestroyObject()
+    {
+        Destroy(gameObject);
     }
 }
 
