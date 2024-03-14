@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4420568018548789639}
   - component: {fileID: 4420568018548789636}
   - component: {fileID: 5159367001618720774}
+  - component: {fileID: 4765515063436618385}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -62,11 +63,10 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, Unity.ugui,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 1f62d00c234245c4cb0f55b508983372, type: 3}
     m_FontSize: 238
@@ -80,9 +80,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '0
-
-'
+  m_Text: 
 --- !u!114 &4420568018548789636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -108,6 +106,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e1540cede79cc1489af8e38c43e305b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4765515063436618385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420568018548789635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f320352405e2f4e4d9a6b1159c9de05a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4420568018785244674

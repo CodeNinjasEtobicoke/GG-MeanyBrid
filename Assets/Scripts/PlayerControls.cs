@@ -35,4 +35,7 @@ private float objectHeight;
             rb.velocity = Vector2.up * velocity;
         }
     }
+
+  
+
 }
