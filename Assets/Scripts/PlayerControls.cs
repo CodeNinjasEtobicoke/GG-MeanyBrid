@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerControls : MonoBehaviour { 
-//Game manager object
-[Header("Game Controller Object for controlling the game")]
-public GameController gameController;
-[Header("default Velocity")]
-public float velocity = 5;
+
+    //Game manager object
+    [Header("Game Controller Object for controlling the game")]
+    public GameController gameController;
+    [Header("default Velocity")]
+    public float velocity = 5;
+
     //Phycics for the bird
     private Rigidbody2D rb;
-//Height for bird
-private float objectHeight;
+    //Height for bird
+    private float objectHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,13 @@ private float objectHeight;
         }
     }
 
-  
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "HighSpike" || collision.gameObject.tag == "LowSpike" || collision.gameObject.tag == "Ground")
+        {
+            Time.timeScale = 0;
+        }
+    }
+
 
 }
