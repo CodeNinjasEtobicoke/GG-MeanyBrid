@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     public GameObject scoreCanvas;
 
     [Header("Spawner Object for spawning objects in game")]
+    public GameObject spawner;
     // Start is called before the first frame update
     void Start()
     {
