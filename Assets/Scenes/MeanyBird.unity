@@ -527,6 +527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7952644d1abcf2b43b5cbf364f169992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverCanvas: {fileID: 0}
+  scoreCanvas: {fileID: 0}
+  spawner: {fileID: 0}
 --- !u!4 &1200268412
 Transform:
   m_ObjectHideFlags: 0
@@ -951,6 +954,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5159367001618720774, guid: dc49c544ac07fab4799df520a69aa565,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 805879063}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc49c544ac07fab4799df520a69aa565, type: 3}
 --- !u!1001 &5669031246613376450
