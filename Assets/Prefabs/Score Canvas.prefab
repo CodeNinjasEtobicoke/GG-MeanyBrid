@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 4420568018548789638}
   - component: {fileID: 4420568018548789639}
   - component: {fileID: 4420568018548789636}
-  - component: {fileID: 5159367001618720774}
-  - component: {fileID: 4765515063436618385}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -96,30 +94,6 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 4.61, y: 0}
   m_UseGraphicAlpha: 1
---- !u!114 &5159367001618720774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420568018548789635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e1540cede79cc1489af8e38c43e305b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4765515063436618385
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4420568018548789635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f320352405e2f4e4d9a6b1159c9de05a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4420568018785244674
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,6 +105,7 @@ GameObject:
   - component: {fileID: 4420568018785244678}
   - component: {fileID: 4420568018785244679}
   - component: {fileID: 4420568018785244676}
+  - component: {fileID: 1057275891009013487}
   - component: {fileID: 4420568018785244677}
   m_Layer: 5
   m_Name: Score Canvas
@@ -202,6 +177,19 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &1057275891009013487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4420568018785244674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1540cede79cc1489af8e38c43e305b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
 --- !u!114 &4420568018785244677
 MonoBehaviour:
   m_ObjectHideFlags: 0

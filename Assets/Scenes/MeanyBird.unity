@@ -527,9 +527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7952644d1abcf2b43b5cbf364f169992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverCanvas: {fileID: 0}
-  scoreCanvas: {fileID: 0}
-  spawner: {fileID: 0}
+  gameOverCanvas: {fileID: 1289891736}
+  scoreCanvas: {fileID: 1779906538}
+  spawner: {fileID: 1311038529}
 --- !u!4 &1200268412
 Transform:
   m_ObjectHideFlags: 0
@@ -774,19 +774,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4420568019049001625}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1779906543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1779906538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e1540cede79cc1489af8e38c43e305b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 805879063}
 --- !u!1001 &4420568019049001625
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -794,6 +781,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1057275891009013487, guid: dc49c544ac07fab4799df520a69aa565,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 805879063}
     - target: {fileID: 4420568018548789634, guid: dc49c544ac07fab4799df520a69aa565,
         type: 3}
       propertyPath: m_Pivot.x
